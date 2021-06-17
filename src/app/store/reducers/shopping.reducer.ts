@@ -1,11 +1,12 @@
-import { ShoppingAction, ShoppingActionTypes } from '../Action/shopping.actions';
+import { ShoppingActionTypes } from '../Action/shopping.actions';
 import { ShoppingItem } from '../models/shopping-item.model';
 
+import * as AppAction from '../Action/shopping.actions'
 
 export interface ShoppingState {
-    list: ShoppingItem[];
-    loading: boolean;
-    error: Error;
+    list?: ShoppingItem[];
+    loading?: boolean;
+    error?: Error;
 }
 
 
@@ -15,10 +16,10 @@ const intialState: ShoppingState = {
     error: undefined
 };
 
-export function ShoppingReducer(state: ShoppingState , action: ShoppingAction){
+export function ShoppingReducer(state= intialState , action): ShoppingState{
     switch (action.type){
         case ShoppingActionTypes.LOAD_SHOPPING:
-            return{state, loading: true };
+            return{...state, loading: true };
         case ShoppingActionTypes.LOAD_SHOPPING_SUCCESS:
                 return {
                   ...state,

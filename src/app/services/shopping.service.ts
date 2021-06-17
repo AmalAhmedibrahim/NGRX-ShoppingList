@@ -2,16 +2,17 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { ShoppingItem } from '../store/models/shopping-item.model';
 import { delay } from 'rxjs/operators';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ShoppingService {
-  private SHOPPING_URL = 'http://localhost:3000/shopping';
+  readonly SHOPPING_URL = 'http://localhost:3000/shopping';
 
   constructor(private http: HttpClient) { }
 
-  getShoppingItems() {
+  getShoppingItems(){
     return this.http.get<Array<ShoppingItem>>(this.SHOPPING_URL).pipe(delay(500));
   }
   addShoppingItem(shoppingItem: ShoppingItem) {

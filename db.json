@@ -1,72 +1,20 @@
 {
   "shopping": [
     {
-      "id": 1,
-      "name": "Diet Coke"
-    },
-    {
-      "id": "7a432b74-986a-45b8-a155-a4b87269dc7c",
-      "name": "hhh"
-    },
-    {
       "id": "185417bd-189f-430d-941e-a7eb61fb7986",
       "name": ""
     },
     {
-      "id": "e4d6f393-d736-4aaa-acd1-21de9b35b94c",
-      "name": "jjj"
+      "id": "358e0fa0-01d8-4996-865b-0ebdde81062e",
+      "name": "Pasta"
     },
     {
-      "id": "9837cff4-5f50-4073-be8b-24463c027c11",
-      "name": "jjj"
+      "id": "a383e796-896b-44df-9d9e-dc339d15fa56",
+      "name": "Coke"
     },
     {
-      "id": "b4bd4421-4520-4e03-9cf5-2803fe87e6b7",
-      "name": "jnnnn"
-    },
-    {
-      "id": "ec826dd9-436c-460a-8324-66002e875f90",
-      "name": "nnnn"
-    },
-    {
-      "id": "6e96c6e0-2061-48ce-b223-394c0793ea9d",
-      "name": "hhhhhh"
-    },
-    {
-      "id": "31491f58-fd2a-4a70-a724-b2b0483c3f8e",
-      "name": "ggg"
-    },
-    {
-      "id": "b80df594-295a-4f05-96de-90802eff439e",
-      "name": "fff"
-    },
-    {
-      "id": "363b7aeb-7c15-4fa4-9df6-c3ceb198665f",
-      "name": "kkkkkkk"
-    },
-    {
-      "id": "c5b2b735-4bbc-4f64-8992-c317b29dc9ae",
-      "name": "jjjjjjjjjjjj"
-    },
-    {
-      "id": "43db66b6-6c50-405e-bd6b-751ac7fc62bd",
-      "name": "mmm"
-    },
-    {
-      "id": "8899d8ec-a820-4b91-9e3a-d5d35b1ccbe2",
-      "name": "jjj"
-    },
-    {
-      "id": "0bc09ac6-f702-492c-a0d3-135c405e6677",
-      "name": "fffff"
-    },
-    {
-      "id": "4c46d1a7-1507-4b21-bcb6-94d6064d68f6",
-      "name": "f"
-    },
-    {
-      "id": "e519b83c-83e7-4394-950f-d2047b3e1826",
-      "name": "jjj"
+      "id": "a45aa67c-8004-47bf-86ed-8e5d9d402fe5",
+      "name": "hhhh"
     }
   ]
 }

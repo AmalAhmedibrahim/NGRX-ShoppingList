@@ -24,7 +24,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.store.dispatch(new LoadShoppingAction());
+    this.store.dispatch(LoadShoppingAction());
 
     this.shoppingItems = this.store.select(store => store.shopping.list);
     this.loading$ = this.store.select(store => store.shopping.loading);
@@ -35,10 +35,10 @@ export class AppComponent implements OnInit {
     debugger;
     this.newShoppingItem.id = uuid();
     console.log(this.newShoppingItem);
-    this.store.dispatch(new AddItemAction(this.newShoppingItem));
+    this.store.dispatch(AddItemAction({payload: this.newShoppingItem}));
     this.newShoppingItem = {id: '', name: ''};
   }
   deleteItem(id: string): void{
-    this.store.dispatch(new DeleteItemAction(id));
+    this.store.dispatch(DeleteItemAction({payload: id}));
   }
 }
